@@ -37,4 +37,3 @@ dist/
 # User-requested exclusions
 utils/
 data/
-conftest.py

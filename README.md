@@ -1,8 +1,8 @@
-## Kịch Bản Kiểm Thử Thủ Công & Test Case
+## Scenario & Test Case for Manual Test ( EP / BVA / DT / ST / UC )
 
-### Mô-đun 1 – Đăng nhập
+### Module 1 – Đăng nhập(Authenticate)
 
-| # | Kịch bản | Test Case |
+| # | Scenario  | Test Case |
 |---|----------|-----------|
 | 1 | Kiểm tra đầu vào form đăng nhập | Nhập tên đăng nhập, để trống mật khẩu → kỳ vọng hiển thị thông báo lỗi |
 | 2 | Kiểm tra đầu vào form đăng nhập | Nhập email sai định dạng vào ô tên đăng nhập → kỳ vọng hiển thị lỗi xác thực |
@@ -24,9 +24,9 @@
 
 ---
 
-### Mô-đun 2 – Bảng điều khiển
+### Module 2 – Bảng điều khiển(Dashboard)
 
-| # | Kịch bản | Test Case |
+| # | Scenario  | Test Case |
 |---|----------|-----------|
 | 1 | Nhận diện trang | Điều hướng đến Bảng điều khiển → kỳ vọng tiêu đề trang hiển thị "Dashboard" |
 | 2 | Điều hướng widget | Nhấp vào widget Chấm công → kỳ vọng trang Đồng hồ mở ra |
@@ -46,9 +46,9 @@
 
 ---
 
-### Mô-đun 3 – Nghỉ phép
+### Module 3 – Nghỉ phép(Leave)
 
-| # | Kịch bản | Test Case |
+| # | Scenario  | Test Case |
 |---|----------|-----------|
 | 1 | Truy cập menu | Nhấp vào mục Nghỉ phép trong thanh bên → kỳ vọng trang Nghỉ phép tải thành công |
 | 2 | Hiển thị danh sách nghỉ phép | Mở menu con Danh sách nghỉ phép → kỳ vọng bảng dữ liệu nghỉ phép xuất hiện |
@@ -60,9 +60,9 @@
 
 ---
 
-### Mô-đun 4 – Quản lý nhân viên (PIM)
+### Module 4 – Quản lý nhân viên (PIM)
 
-| # | Kịch bản | Test Case |
+| # | Scenario  | Test Case |
 |---|----------|-----------|
 | 1 | Điều hướng menu | Nhấp vào mục PIM → kỳ vọng trang Danh sách nhân viên tải thành công |
 | 2 | Thêm nhân viên | Nhấp nút Thêm → kỳ vọng trang form Thêm nhân viên mở ra |
@@ -77,9 +77,9 @@
 
 ---
 
-### Mô-đun 5 – Quản trị
+### Module 5 – Quản trị (Admin)
 
-| # | Kịch bản | Test Case |
+| # | Scenario  | Test Case |
 |---|----------|-----------|
 | 1 | Truy cập trang Quản trị | Đăng nhập và điều hướng đến trang Quản trị → kỳ vọng bảng Quản lý người dùng hiển thị |
 | 2 | Tìm kiếm người dùng | Nhập tên đăng nhập vào trường tìm kiếm → kỳ vọng người dùng hệ thống phù hợp xuất hiện |
@@ -91,9 +91,9 @@
 
 ---
 
-### Mô-đun 6 – Thông tin cá nhân (My Info)
+### Module 6 – Thông tin cá nhân (My Info)
 
-| # | Kịch bản | Test Case |
+| # | Scenario  | Test Case |
 |---|----------|-----------|
 | 1 | Truy cập trang | Đăng nhập và điều hướng đến My Info → kỳ vọng form Thông tin cá nhân hiển thị |
 | 2 | Chỉnh sửa tên | Xóa và nhập giá trị mới vào trường Tên → kỳ vọng trường chấp nhận dữ liệu nhập |

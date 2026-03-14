@@ -1,6 +1,7 @@
 ## Tổng quan các scenario sẽ manual test
 Cụ thể các test case sẽ được liệt kê trong file OrangeHRM_TestCase.xlsx
 
+```
 Module 1: Xác thực (Authentication)
 Scenario ID | Mô tả
 SC-001 | Xác minh đăng nhập với thông tin hợp lệ

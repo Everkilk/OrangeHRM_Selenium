@@ -1,4 +1,4 @@
-# OrangeHRM Selenium Python Framework
+# OrangeHRM Selenium with Pytest
 
 This project is a Python Selenium tests for OrangeHRM using:
 - Selenium WebDriver
